@@ -1,5 +1,8 @@
-
-body, h1, p, ul, li {
+body,
+h1,
+p,
+ul,
+li {
   margin: 0;
   padding: 0;
 }
@@ -11,6 +14,8 @@ body {
 }
 
 header {
+  display: flex;
+  justify-content: space-evenly;
   background-color: #fff;
   color: #2e2e2e;
   padding: 20px 0;
@@ -19,8 +24,11 @@ header {
 }
 
 .logo img {
-  width: 150px;
-  height: auto;
+  margin: 0;
+  padding: 0;
+  width: 120px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+
 }
 
 .social-icons img {
@@ -34,3 +42,12 @@ header {
   max-width: 25%;
   max-height: 25%;
 }
+
+#Ingredients {
+  align-content: center;
+  margin: 10px;
+  margin-left: 25px;
+  margin right: 25px;
+  background-image: url(img/list-bg.png);
+}
+
