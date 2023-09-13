@@ -23,6 +23,11 @@ header {
   border-bottom: gray;
 }
 
+footer {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
 .logo img {
   margin: 0;
   padding: 0;
